@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Settings</h1>
+    </header>
+
+    <div class="sidebar">
+        <div class="menu-item"><a href="index.html">Home</a></div>
+        <div class="menu-item"><a href="analytics.html">Analytics</a></div>
+        <div class="menu-item"><a href="projects.html">Projects</a></div>
+        <div class="menu-item"><a href="settings.html">Settings</a></div>
+    </div>
+
+    <main>
+        <div class="dashboard-item">
+            <h2>Profile Settings</h2>
+            <form>
+                <label for="username">Username:</label><br>
+                <input type="text" id="username" name="username"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password"><br><br>
+                <input type="submit" value="Save">
+            </form>
+        </div>
+        <div class="dashboard-item">
+            <h2>Notification Settings</h2>
+            <form>
+                <label for="emailNotifications">Email Notifications:</label><br>
+                <input type="checkbox" id="emailNotifications" name="emailNotifications"><br>
+                <label for="smsNotifications">SMS Notifications:</label><br>
+                <input type="checkbox" id="smsNotifications" name="smsNotifications"><br><br>
+                <input type="submit" value="Save">
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Dashboard. All rights reserved.</p>
+    </footer>
+</body>
+</html>
